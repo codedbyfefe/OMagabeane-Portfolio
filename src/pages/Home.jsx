@@ -1,3 +1,5 @@
+import React from "react";
+
 const Home = () => (
   <section className="flex items-center justify-center h-[80vh] text-center px-4">
     <div>
