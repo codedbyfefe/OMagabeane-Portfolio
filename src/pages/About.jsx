@@ -1,9 +1,10 @@
-const About = () => (
-  <section className="px-6 py-10 max-w-3xl mx-auto">
-    <h2 className="text-3xl font-bold mb-4">About Me</h2>
-    <p className="text-gray-700">
-      I'm a junior front-end developer passionate about clean design and functional user experiences. I enjoy building responsive apps with React and refining UI/UX in Figma. Always learning, currently diving into TypeScript and animations.
-    </p>
-  </section>
-);
-export default About;
+export default function About() {
+  return (
+    <section className="max-w-3xl mx-auto px-6 py-24">
+      <h2 className="text-3xl font-bold mb-6">About</h2>
+      <p className="text-lg leading-relaxed text-gray-700">
+        I’m a designer and developer focused on creating beautiful and functional digital experiences.
+      </p>
+    </section>
+  )
+}

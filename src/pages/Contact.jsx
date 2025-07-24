@@ -1,8 +1,14 @@
-const Contact = () => (
-  <section className="px-6 py-10 text-center">
-    <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
-    <p className="mb-2">Email: <a href="mailto:your@email.com" className="text-accent">your@email.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" className="text-accent">linkedin.com/in/yourprofile</a></p>
-  </section>
-);
-export default Contact;
+export default function Contact() {
+  return (
+    <section className="max-w-xl mx-auto px-6 py-24">
+      <h2 className="text-3xl font-bold mb-6">Contact</h2>
+      <p className="text-lg mb-4 text-gray-700">Let’s work together — I’d love to hear from you.</p>
+      <form className="space-y-4">
+        <input type="text" placeholder="Your Name" className="w-full border px-4 py-2 rounded" />
+        <input type="email" placeholder="Email" className="w-full border px-4 py-2 rounded" />
+        <textarea placeholder="Message" className="w-full border px-4 py-2 rounded h-32" />
+        <button type="submit" className="bg-black text-white px-6 py-2 rounded">Send</button>
+      </form>
+    </section>
+  )
+}
