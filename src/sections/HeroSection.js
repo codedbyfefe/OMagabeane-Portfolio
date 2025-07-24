@@ -1,17 +1,34 @@
-function HeroSection() {
+import React from "react";
+
+const Hero = () => {
   return (
-    <section className="h-[90vh] flex items-center justify-center bg-gray-100 text-center px-6">
-      <div>
-        <h1 className="text-5xl md:text-6xl font-bold mb-6">I design thoughtful experiences.</h1>
-        <p className="text-lg text-gray-600 mb-6 max-w-xl mx-auto">
-          A designer and developer passionate about crafting beautiful interfaces.
-        </p>
-        <a href="/portfolio" className="inline-block bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition">
-          View Work
-        </a>
+    <section className="w-full bg-white dark:bg-black">
+      <div className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight mb-6">
+            Hello, I’m a Creative Front-End Developer
+          </h1>
+          <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+            I build elegant websites that blend beauty and functionality using React, Tailwind, and UX principles.
+          </p>
+          <a
+            href="#portfolio"
+            className="inline-block  text-white px-6 py-3 rounded-xl text-sm hover:bg-gray-800 transition"
+          >
+            View Portfolio
+          </a>
+        </div>
+
+        <div>
+          <img
+            src="/images/hero.jpg"
+            alt="Hero"
+            className="w-full rounded-xl shadow-xl object-cover"
+          />
+        </div>
       </div>
     </section>
   );
-}
+};
 
-export default HeroSection;
+export default Hero;
