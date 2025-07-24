@@ -1,10 +1,19 @@
-export default {
+module.exports = {
   content: [
-    './index.html',
-    './src/**/*.{js,ts,jsx,tsx}',
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        grayLight: "#F7F7F7",
+        grayMedium: "#6B7280",
+        grayDark: "#374151"
+      },
+      fontFamily: {
+        sans: ['Poppins', 'Inter', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
