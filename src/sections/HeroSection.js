@@ -2,28 +2,27 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-white dark:bg-black">
-      <div className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight mb-6">
-            Hello, I’m a Creative Front-End Developer
+    <section className="w-full h-screen bg-black text-white flex items-center justify-center overflow-hidden">
+      <div className="max-w-7xl w-full h-full grid md:grid-cols-2">
+        {/* Left side - Text/description */}
+        <div className="flex flex-col justify-center px-8 md:px-16">
+          <h1 className="text-4xl md:text-5xl font-light leading-snug mb-6">
+            Heyy There, I’m a super-fun<br />
+            Front-end developer & UI/UX designer based <br />
+            in Johannesburg,SA .
           </h1>
-          <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-            I build elegant websites that blend beauty and functionality using React, Tailwind, and UX principles.
+          <p className="text-gray-400 text-sm">
+            Lorem ipsum dolor sit amet, consectetur<br />
+            adipiscing elit. Suspendisse aliqu adap.
           </p>
-          <a
-            href="#portfolio"
-            className="inline-block  text-white px-6 py-3 rounded-xl text-sm hover:bg-gray-800 transition"
-          >
-            View Portfolio
-          </a>
         </div>
 
-        <div>
+        {/* Right side - Image*/}
+        <div className="hidden md:block">
           <img
             src="/images/hero.jpg"
-            alt="Hero"
-            className="w-full rounded-xl shadow-xl object-cover"
+            alt="Portrait"
+            className="h-full w-full object-cover"
           />
         </div>
       </div>

@@ -5,13 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        grayLight: "#F7F7F7",
-        grayMedium: "#6B7280",
-        grayDark: "#374151"
-      },
       fontFamily: {
-        sans: ['Poppins', 'Inter', 'sans-serif'],
+        sans: ['"Helvetica Neue"', "sans-serif"],
       },
     },
   },
