@@ -2,16 +2,44 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <header className="flex justify-between items-center px-6 py-4 fixed w-full bg-white shadow-md z-50">
-      <h1 className="text-2xl font-bold tracking-wide">OM</h1>
-      <nav className="space-x-6 text-sm font-medium tracking-wide">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/contact">Contact</Link>
-      </nav>
+    <header className="fixed top-0 w-full bg-black text-white px-6 py-4 z-50 shadow-md">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
+        {/* Logo */}
+        <h1 className="text-xl md:text-2xl font-bold tracking-widest text-white">
+          OM
+        </h1>
+
+        {/* Navigation */}
+        <nav className="space-x-6 text-sm md:text-base font-medium tracking-wide">
+          <Link
+            to="/"
+            className="text-white hover:text-pink-400 transition duration-200"
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            className="text-white hover:text-pink-400 transition duration-200"
+          >
+            About
+          </Link>
+          <Link
+            to="/portfolio"
+            className="text-white hover:text-pink-400 transition duration-200"
+          >
+            Portfolio
+          </Link>
+          <Link
+            to="/contact"
+            className="text-white hover:text-pink-400 transition duration-200"
+          >
+            Contact
+          </Link>
+        </nav>
+      </div>
     </header>
   );
 }
 
 export default Navbar;
+
