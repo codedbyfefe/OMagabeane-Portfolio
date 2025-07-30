@@ -40,7 +40,7 @@ function Contact() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center animate-fade-in-up">
         {/* Form Side */}
         <div>
-          <h2 className="text-4xl font-bold mb-6 tracking-wide">Contact</h2>
+          <h2 className="text-4xl font-bold mb-6 tracking-wide">Contact Me</h2>
           <p className="text-lg mb-8 text-gray-400">
             Let’s work together and build great experiences — I’d love to hear from you.
           </p>
