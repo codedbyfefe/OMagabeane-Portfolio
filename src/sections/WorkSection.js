@@ -5,13 +5,13 @@ function WorkSection() {
     {
       title: "Elevyn App",
       description: "A Balanced Lifestyle App for Student-Athletes.",
-      image: "/images/grad.jpg", //using filler image for now
+      image: "/images/Student-athlete lifestyle app.jpg", 
       link: "/portfolio/budgeteer", // internal route OR external link (still to be decided)
     },
     {
-      title: "UI Case Study: SARS mobile App",
-      description: "A UX redesign for a mobile e-commerce experience.",
-      image: "/images/grad.jpg", //using filler image for now
+      title: "UI Case Study: UNII Student App",
+      description: "A student lifestyle app.",
+      image: "/images/UNII1.png", 
       link: "/portfolio/ui-case", // internal route OR external link (still to be decided)
     },
   ];
