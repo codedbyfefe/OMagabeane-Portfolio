@@ -9,7 +9,7 @@ function WorkSection() {
       link: "/portfolio/budgeteer", // internal route OR external link (still to be decided)
     },
     {
-      title: "UI Case Study: UNII Student App",
+      title: "UNII Student App",
       description: "A student lifestyle app.",
       image: "/images/UNII1.png", 
       link: "/portfolio/ui-case", // internal route OR external link (still to be decided)

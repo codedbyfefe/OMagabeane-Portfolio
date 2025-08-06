@@ -9,11 +9,10 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-light leading-snug mb-6">
             Heyy there, I’m Ofentse.<br />
             Front-end developer & UI/UX designer based <br />
-            in Johannesburg,SA .
+            in Johannesburg, SA.
           </h1>
           <p className="text-gray-400 text-sm">
-            Lorem ipsum dolor sit amet, consectetur<br />
-            adipiscing elit. Suspendisse aliqu adap.
+            Let's get to know me and explore my work!
           </p>
         </div>
 
