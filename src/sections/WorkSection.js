@@ -1,67 +1,52 @@
-import { useParams } from "react-router-dom";
-import projects from "../data/projects";
+import { Link } from "react-router-dom";
 
-function ProjectDetail() {
-  const { slug } = useParams();
-  const project = projects.find((p) => p.slug === slug);
-
-  if (!project) return <div className="text-center text-white">Project not found</div>;
+function WorkSection() {
+  const projects = [
+    {
+      title: "Elevyn App",
+      description: "A Balanced Lifestyle App for Student-Athletes.",
+      image: "/images/Student-athlete lifestyle app.jpg",
+      slug: "elevyn-app",
+    },
+    {
+      title: "UNII Student App",
+      description: "A student lifestyle app.",
+      image: "/images/UNII1.png",
+      slug: "UNII-App",
+    },
+  ];
 
   return (
-    <div className="bg-[#0c0c0c] text-white px-6 py-24">
-      <div className="max-w-5xl mx-auto space-y-12">
-        {/* Header */}
-        <div className="space-y-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold">{project.title}</h1>
-          <p className="text-sm text-gray-400">{project.type}</p>
-        </div>
+    <section className="px-6 py-20 bg-white text-center">
+      <h2 className="text-3xl font-bold mb-6">Recent Projects</h2>
+      <p className="text-gray-600 max-w-2xl mx-auto mb-12">
+        A showcase of my latest projects across design and development.
+      </p>
 
-        {/* Info Row */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-300 border-t border-b border-gray-700 py-6">
-          <div>
-            <p className="font-medium text-white">Role</p>
-            <p>{project.role}</p>
-          </div>
-          <div>
-            <p className="font-medium text-white">Tools Used</p>
-            <p>{project.tools.join(", ")}</p>
-          </div>
-          <div>
-            <p className="font-medium text-white">Date</p>
-            <p>{project.date}</p>
-          </div>
-        </div>
-
-        {/* Sections */}
-        <div className="space-y-10 text-lg text-gray-300 leading-relaxed">
-          <div>
-            <h2 className="text-xl font-semibold text-white mb-2">Problem</h2>
-            <p>{project.problem}</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold text-white mb-2">Process</h2>
-            <p>{project.process}</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold text-white mb-2">Outcome</h2>
-            <p>{project.outcome}</p>
-          </div>
-        </div>
-
-        {/* Screenshots */}
-        <div className="space-y-8">
-          {project.images.map((img, i) => (
-            <img
-              key={i}
-              src={img}
-              alt={`${project.title} screenshot ${i + 1}`}
-              className="w-full rounded-lg border border-gray-800"
-            />
-          ))}
-        </div>
+      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        {projects.map((project, index) => (
+          <Link
+            key={index}
+            to={`/projects/${project.slug}`} // ✅ Internal route using slug
+            className="group rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div className="w-full h-64 bg-gray-100 overflow-hidden">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="bg-white px-6 py-4 text-left">
+              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+              <p className="text-gray-600 text-sm">{project.description}</p>
+            </div>
+          </Link>
+        ))}
       </div>
-    </div>
+    </section>
   );
 }
 
-export default ProjectDetail;
+export default WorkSection;
+

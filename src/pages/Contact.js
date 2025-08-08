@@ -15,10 +15,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "your_service_id",     
-        "your_template_id",    
+        "service_2elcfsk",    
+        "Contact Form",   
         form.current,
-        "your_public_key"      
+        "XQxBdpaIaZSENofoQ"  
       )
       .then(
         () => {
@@ -48,14 +48,14 @@ function Contact() {
           <form ref={form} onSubmit={sendEmail} className="space-y-5">
             <input
               type="text"
-              name="user_name"
+              name="name"
               placeholder="Your Name"
               required
               className="w-full bg-gray-200 text-black placeholder-gray-500 px-4 py-3 rounded focus:outline-none focus:ring-2 focus:ring-white"
             />
             <input
               type="email"
-              name="user_email"
+              name="email_id"
               placeholder="Email"
               required
               className="w-full bg-gray-200 text-black placeholder-gray-500 px-4 py-3 rounded focus:outline-none focus:ring-2 focus:ring-white"
@@ -104,7 +104,7 @@ function Contact() {
         {/* Image Side */}
         <div className="hidden md:block">
           <img
-            src="/images/grad.jpg" 
+            src="/images/grad.jpg"
             alt="Contact Illustration"
             className="w-full rounded-xl shadow-lg object-cover"
           />
