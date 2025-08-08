@@ -4,7 +4,7 @@
 
 body {
   margin: 0; 
-  @apply font-sans bg-black text-white;
+  @apply font-sans bg-black text-black;
 }
 
 a {
