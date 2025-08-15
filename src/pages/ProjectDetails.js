@@ -50,8 +50,16 @@ function ProjectDetail() {
             {/* Content Sections */}
             <div className="space-y-10 text-base leading-relaxed text-gray-300">
               <section>
+                <h2 className="text-lg font-semibold text-white mb-2">Overview</h2>
+                <p>{project.overview}</p>
+              </section>
+              <section>
                 <h2 className="text-lg font-semibold text-white mb-2">Problem</h2>
                 <p>{project.problem}</p>
+              </section>
+              <section>
+                <h2 className="text-lg font-semibold text-white mb-2">Solution</h2>
+                <p>{project.solution}</p>
               </section>
               <section>
                 <h2 className="text-lg font-semibold text-white mb-2">Process</h2>
@@ -60,6 +68,10 @@ function ProjectDetail() {
               <section>
                 <h2 className="text-lg font-semibold text-white mb-2">Outcome</h2>
                 <p>{project.outcome}</p>
+              </section>
+              <section>
+                <h2 className="text-lg font-semibold text-white mb-2">Reflection</h2>
+                <p>{project.reflection}</p>
               </section>
             </div>
           </div>

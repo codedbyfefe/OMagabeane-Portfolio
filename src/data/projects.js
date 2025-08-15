@@ -3,48 +3,63 @@ const projects = [
   {
     slug: "elevyn-app",
     title: "Elevyn Student-Athlete App",
-    description: "App Design & Development — 25.4.25",
+    description: "App Design & Development — 25.4.25- present",
     image: "/images/Student-athlete lifestyle app.jpg",
-    role: "UI/UX Designer, Developer",
-    tools: "Figma, React Native",
-    problem: "Helps student-athletes manage schedules, health, and academics.",
-    process: "Sketches → Wireframes → High-Fidelity Prototype → Testing",
+    role: "UX/UI Designer & Front-End Developer — led user research, competitor analysis, wireframing, prototyping in Figma, and implemented the front-end in React Native",
+    tools: "Figma, React Native, Expo, Github",
+    overview:"A mobile-first app I am currently working on which is designed to help student-athletes manage academics, training schedules, wellness, and performance tracking in one integrated platform. Elevyn bridges the gap between learning management systems and sports tracking tools, supporting the unique dual life of a student-athlete.",
+    problem: "Student-athletes face the constant challenge of balancing intense training schedules, academic deadlines, and personal wellbeing — often relying on a fragmented mix of fitness apps, learning management systems, and generic productivity tools. This scattered approach leads to cognitive overload, poor time management, and a lack of contextual insights, as athletic performance is rarely connected to academic stress, recovery patterns, or mental wellness. With no dedicated platform designed for the unique dual life of student-athletes, this demographic remains underserved, resulting in missed opportunities for optimized performance, increased stress, and diminished balance between sport and study.",
+    solution:"Elevyn addresses this gap by offering a unified, mobile-first platform that integrates academic planning, athletic performance tracking, and personal wellness management into a single, intuitive experience. The app combines features such as a dual-purpose calendar, task manager, wellness log, and performance dashboard, allowing users to see connections between their training, recovery, and academic progress. Designed with bold visuals, clear navigation, and accessible UI patterns, Elevyn reduces mental load, encourages balanced time management, and provides actionable insights tailored to the student-athlete lifestyle. Unlike existing tools, Elevyn is purpose-built to reflect the realities of juggling coursework with competitive sport, creating a holistic companion for growth, discipline, and long-term success.",
+    process: "Conducted competitor research (Nike Training Club, Headspace, Canvas LMS, Notion) to identify feature gaps. Created user personas and journey maps to capture student-athlete needs.   Designed lo-fi and hi-fi prototypes in Figma, iterating after feedback. Built core screens in React Native (auth, dashboard, calendar, performance tracker, wellness log). Developed with mock data for demonstration, structured for future backend integration with Flask.",
     screens: ["/images/Student-athlete lifestyle app.jpg"],
-    outcome: "Improved scheduling and user engagement."
+    outcome: "in progress...",
+    reflection:"in progress..."
   },
   {
     slug: "portfolio-website",
     title: "Portfolio Website",
     description: "Web Design & Development — 7.6.25",
     image: "/images/Portfolio1.png",
-    role: "Frontend Developer, UI Designer",
+    role: "Designer & Developer — led concept creation, wireframing, prototyping, front-end development, and content curation.",
     tools: "React, TailwindCSS, Figma, Netlify, Github",
-    problem: "Personal branding and showcasing work.",
-    process: "Design → Build → Test → Refine",
-    screens: ["/images/Portfolio1.png"],
-    outcome: "Clean and responsive personal portfolio website."
+    overview:"A responsive, visually cohesive personal portfolio website designed to present my work as a front-end developer and UI/UX designer. The site highlights key projects across app design, web development, and game prototyping, while reflecting my design philosophy, technical skills, and personal brand. Built with clean, semantic HTML, CSS, and JavaScript (and optionally React for interactivity), the portfolio balances aesthetics with usability, ensuring potential clients, employers, and collaborators can easily explore my work and learn more about me.",
+    problem: "In the competitive tech and design industry, having an online portfolio is essential, but many designers and developers struggle to present their work in a way that is both visually appealing and easy to navigate. I needed a portfolio that not only showcased my work effectively but also demonstrated my own design and development capabilities.",
+    solution:"I created a modern, minimal yet personality-driven portfolio website that serves as both a showcase of my work and a live example of my front-end and UI/UX skills.",
+    process: "Researched modern portfolio trends and competitor sites in both design and tech industries.  Sketched wireframes to define content structure and navigation flow",
+    screens:[
+    "/images/UNII1.png",
+    "/images/PRT2.png",
+    "/images/PRT3.png",
+    ],
+    outcome: "Clean and responsive personal portfolio website.The final portfolio is a clean, responsive, and professional platform that effectively communicates my skills and showcases my best work. Visitors can quickly browse through featured projects, read in-depth case studies, and understand my role in each. The portfolio webiste is still a work in progress as I am making continuous iterations to improve the overall experience of the entire wesbite.",
+    reflection:"Future updates will include integrating a blog section for sharing design insights, adding a filterable project gallery, and experimenting with interactive components built in React. I also aim to continuously update the portfolio with new work to keep it relevant and demonstrate growth in both design and development skills."
   },
   {
     slug: "UNII-App",
     title: "UNII Student App",
     description: "App Design & Development — 8.11.23",
     image: "/images/UNII1.png",
-    role: "Developer(Programmer), UI/UX Designer",
+    role: "UX/UI Designer & Front-End Developer(programmer) — contributed to user research, wireframing, and prototyping; collaborated on feature scoping and UI implementation",
     tools: "React, Figma, Expo, Github",
-    problem: "Helps manage student life, helps make studenting convienent whether it be academically or socially.",
-    process: "Design → Build → Test → Refine",
-    screens: ["/images/UNII1.png"],
-    outcome: "Clean and responsive personal portfolio website."
+    overview:"UNI is a mobile app concept designed by Nozipho Sithole, Kyle Abrahams and Ofentse Magabeane (myself) as a one-stop hub for Wits University students, streamlining access to essential campus resources, events, and local services. The app brings together multiple functions — campus navigation, food ordering, event discovery, and curated local recommendations — into a single, user-friendly interface. Whether a student is new to campus or in their final year, UNI aims to make daily university life smoother, safer, and more connected. By replacing the need to juggle several separate apps and websites, UNI helps students save time, reduce stress, and stay informed, all while fostering a stronger sense of community. The design was driven by student feedback and grounded in practical usability, ensuring features are not only functional but also engaging and intuitive.",
+    solution:"UNI provides an all-in-one digital companion tailored to the needs of Wits students, integrating essential campus services into a single, intuitive app. Key features include an interactive Wits Map with detailed navigation and building information, the MatrixGO food ordering system for quick and convenient on-campus dining, a Campus Events calendar that automatically updates with academic and social activities, and a Local Hotspots guide vetted for safety, affordability, and student-friendliness. By consolidating these features, UNI reduces the cognitive load of managing campus life, promotes community engagement, and ensures students have reliable, relevant, and easily accessible information at their fingertips. The design prioritizes simplicity, accessibility, and a clear visual hierarchy, ensuring students can find what they need with minimal effort.",
+    problem: "University students, especially those new to campus or new to a different city, often struggle with fragmented and inconsistent sources of information. Navigating to lecture halls, staying updated on campus events, and finding safe, affordable nearby services often requires juggling multiple unconnected apps, bulletin boards, and word-of-mouth recommendations. This scattered approach wastes time, increases stress, and leads to missed opportunities for social engagement or resource access. Furthermore, many existing tools are generic — like Google Maps or public event listings — and don’t account for the unique needs of students, such as safety considerations, cost-effectiveness, or campus-specific facilities. Without a centralized, student-focused platform, the overall university experience remains less connected, less efficient, and less engaging.",
+    process: "Conducted surveys to understand student needs and preferences Designed detailed wireframes and wireflows for navigation, events, and ordering features. Translated wireframes into high-fidelity prototypes while retaining flexibility for creative adjustments. Scoped features based on technical feasibility and cut non-essential functions to focus on core value. Built interactive demo screens showcasing MatrixGO, Campus Events, and Local Hotspots",
+    screens: ["/images/UNII1.png",],
+    outcome: "The final prototype successfully demonstrated UNI’s potential as a centralized hub for student life at Wits. Feedback from initial demonstrations indicated strong interest, with students expressing that the integration of campus navigation, events, and food ordering could save them time and make their daily routines smoother. Even with some features trimmed due to technical constraints, the core functionality was well-received, showing that UNI’s value lies in its ability to connect multiple aspects of campus life in one seamless experience. This positive reception validated the concept and provided a clear roadmap for future development, including adding academic integrations and expanding coverage beyond the Wits campus.",
+    reflection:""
   },
   {
     slug: "resource-management-game",
     title: "Resoruce Management Game",
     description: "Game Design & Development — 7.5.22",
     image: "/images/RM1.png",
-    role: "Game designer & programmer, UI Designer",
+    role: "Game Designer & Developer — led game concept creation, mechanic design, art direction, UI implementation, and integration of accessibility features.",
     tools: "C#, Unity",
-    problem: "Showcasing work.",
-    process: "Design → Build → Test → Refine",
+    overview:"This game prototype is a 2D resource management simulation game with a unique barter-based economy, where players grow crops, manage livestock, and trade resources without traditional currency. The game challenges players to make meaningful trade decisions that can either strengthen their farm or disrupt their progress, creating a dynamic risk–reward loop. Developed in Unity with a partial pixel art style, the game focuses on core mechanics, accessible UI, and player freedom in shaping their farm’s success.",
+    problem: "Create a resource management simulation game in 2D or 3D with a core loop centered around gathering, trading or combining 3-4 resources. This loop must enable players to gain access to new features or upgrades to existing features that allow them to make it increasingly easier for the player to handle them (evolution of 2-4 stages). The game must further present a conflict or challenge in form of random or scheduled events, which negatively impacting resources and therefor prevent the player from easily amassing wealth. This conflict can occur from having accumulated too many resources / lack of storage space, among many other possibilities.",
+    solution:"The resource management game replaces traditional currency with a barter system that forces players to think carefully about each trade. Starting with minimal resources — a small pack of seeds and a couple of chickens — players must decide whether to grow their farm slowly through cultivation or take calculated risks by trading resources for potentially higher-value returns. Core mechanics include planting and storing crops, trading with NPCs, and gradually expanding the farm’s capacity. The pixel art style and minimalist color palette ensure visual clarity, while the UI allows players to open and close panels to manage cognitive load. Accessibility was prioritized through color-blind-friendly palettes, a dyslexia-friendly font, and clear iconography, ensuring that the game is readable and approachable for all players.",
+    process: "Designed initial mechanics for bartering, planting, and storage. Developed a flow chart to refine gameplay loops and prevent scope creep. Created accessible, functional UI using simple layouts and collapsible panels. Implemented partial pixel art style using licensed external assets with proper crediting. Focused on core gameplay mechanics before adding visual polish. Conducted research into accessibility design for color schemes and typography",
      screens: [
     "/images/RM1.png",         // main image at the top
     "/images/RM2.png",
@@ -52,7 +67,8 @@ const projects = [
     "/images/RM4.png",
     "/images/RM5.png"
   ],
-    outcome: "A working digital game prototype."
+    outcome: "The final prototype successfully delivered on the core gameplay loop of growing, storing, and bartering resources in a way that kept players engaged without relying on currency. Playtesting revealed that the barter system added an extra layer of tension and strategic planning, with players often weighing short-term losses against long-term gains. While the game lacked a fixed end goal, the open-ended nature allowed players to define their own objectives, such as becoming the most successful farm in the village.",
+    reflection:"For my resource management game, I wanted to try and implement a system that would be unique. Instead of having coins and using them to buy resources I wanted to have bartering system instead. By adding a bartering system, it challenges the player in terms of having them make meaningful decision that could either help them or mess up their flow. It gives the game a risk reward element to it. The focus when creating a project is always making sure that the mechanics work before making the game look good, that is what starts my process of creating. My game began with mechanics I found interesting such a combat to protect resources and stealing plots of land, the initial game concept however was designed to be a board game which would work for the project at hand. I then drew up a flow chart and tough of ideas that would fit within the barriers of the brief and still work well. This then narrowing down my mechanics to simple mechanics which prevent me from over scoping the assignment brief. Mechanics include: Player barter for more resources and planting crops and storing them. These two mechanics then became a priority to make sure the game idea moves forward. Looking at my game it does not necessarily have a solid end goal. It can continue until the player either gets tired or board of the game. This however was not the intention of the design of the game, I just went with the flow and new ideas came as the design process continued. When the game begins players have very few resources possibly a pack of seeds and 1 or 2 chickens to begin managing their farm. Player can either choose to barter their resources for more or keep farming until they have a lot of crops and chickens on their farm dubbing them the most successful farm in the village. (Just an idea that can be further developed). In some ways the game’s goal can be up to the player giving them the liberty of choice. When it came to making the game look good and designing the UI it presented a bit of a challenge as I was not sure what would enhance the game and make it accessible without making the game look underwhelming. I then began researching ways on how to have accessible, readable, and functional UI with a good layout. I decided to go with a simple partial pixel art style that uses minimal colours as well as a font that is clear and readable. I think the layout is somewhat functional because player can open and close panels when the begin to feel overwhelmed."
   },
    {
     slug: "sushi-Chef-game",
