@@ -27,7 +27,7 @@ const projects = [
     solution:"I created a modern, minimal yet personality-driven portfolio website that serves as both a showcase of my work and a live example of my front-end and UI/UX skills.",
     process: "Researched modern portfolio trends and competitor sites in both design and tech industries.  Sketched wireframes to define content structure and navigation flow",
     screens:[
-    "/images/Portfolio1.png",
+    "/images/Portfolio1.png",   // main image at the top
     "/images/PRT2.png",
     "/images/PRT3.png",
     "/images/PRT4.png"
@@ -79,14 +79,14 @@ const projects = [
     role: "Game designer & programmer, UI Designer",
     tools: "C#, Unity",
     problem: "Showcasing work.",
-    process: "Design → Build → Test → Refine",
+    process: "Just testing the erroe. to see if its because there's nothign written or nah",
      screens: [
     "/images/SG1.png",         // main image at the top
     "/images/SG2.png",
     "/images/SG3.png",
     "/images/SG4.png"
   ],
-    outcome: "A working digital game prototype."
+    outcome: "A working digital game prototype. To showcase work"
   },
   
 ];
