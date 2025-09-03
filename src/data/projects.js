@@ -71,23 +71,6 @@ const projects = [
     outcome: "The final prototype successfully delivered on the core gameplay loop of growing, storing, and bartering resources in a way that kept players engaged without relying on currency. Playtesting revealed that the barter system added an extra layer of tension and strategic planning, with players often weighing short-term losses against long-term gains. While the game lacked a fixed end goal, the open-ended nature allowed players to define their own objectives, such as becoming the most successful farm in the village.",
     reflection:"For my resource management game, I wanted to try and implement a system that would be unique. Instead of having coins and using them to buy resources I wanted to have bartering system instead. By adding a bartering system, it challenges the player in terms of having them make meaningful decision that could either help them or mess up their flow. It gives the game a risk reward element to it. The focus when creating a project is always making sure that the mechanics work before making the game look good, that is what starts my process of creating. My game began with mechanics I found interesting such a combat to protect resources and stealing plots of land, the initial game concept however was designed to be a board game which would work for the project at hand. I then drew up a flow chart and tough of ideas that would fit within the barriers of the brief and still work well. This then narrowing down my mechanics to simple mechanics which prevent me from over scoping the assignment brief. Mechanics include: Player barter for more resources and planting crops and storing them. These two mechanics then became a priority to make sure the game idea moves forward. Looking at my game it does not necessarily have a solid end goal. It can continue until the player either gets tired or board of the game. This however was not the intention of the design of the game, I just went with the flow and new ideas came as the design process continued. When the game begins players have very few resources possibly a pack of seeds and 1 or 2 chickens to begin managing their farm. Player can either choose to barter their resources for more or keep farming until they have a lot of crops and chickens on their farm dubbing them the most successful farm in the village. (Just an idea that can be further developed). In some ways the game’s goal can be up to the player giving them the liberty of choice. When it came to making the game look good and designing the UI it presented a bit of a challenge as I was not sure what would enhance the game and make it accessible without making the game look underwhelming. I then began researching ways on how to have accessible, readable, and functional UI with a good layout. I decided to go with a simple partial pixel art style that uses minimal colours as well as a font that is clear and readable. I think the layout is somewhat functional because player can open and close panels when the begin to feel overwhelmed."
   },
-   {
-    slug: "sushi-Chef-game",
-    title: "Sushi Chef Game",
-    description: "Game Design & Development — 7.5.21",
-    image: "/images/SG1.png",
-    role: "Game designer & programmer, UI Designer",
-    tools: "C#, Unity",
-    problem: "Showcasing work.",
-    process: "Just testing the erroe. to see if its because there's nothign written or nah",
-     screens: [
-    "/images/SG1.png",         // main image at the top
-    "/images/SG2.png",
-    "/images/SG3.png",
-    "/images/SG4.png"
-  ],
-    outcome: "A working digital game prototype. To showcase work"
-  },
   
 ];
 
