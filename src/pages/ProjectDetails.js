@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import projects from "../data/projects";
+import { Download, FileText, ExternalLink } from "lucide-react";
 
 function ProjectDetail() {
   const { slug } = useParams();
@@ -31,7 +32,7 @@ function ProjectDetail() {
           </p>
         </div>
 
-        {/* Main Image */}
+        {/* Main Featured Image */}
         {project.screens.length > 0 && (
           <div className="max-w-4xl mx-auto">
             <img
@@ -42,7 +43,7 @@ function ProjectDetail() {
           </div>
         )}
 
-        {/* Role & Tools */}
+        {/* Role & Tools Row */}
         <div className="flex flex-col md:flex-row justify-center md:justify-between items-start md:items-center gap-6 border-b border-gray-800 pb-6">
           <p className="text-gray-300">
             <span className="font-semibold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -58,7 +59,7 @@ function ProjectDetail() {
           </p>
         </div>
 
-        {/* Project Sections */}
+        {/* Sections: Overview, Problem, Solution, etc. */}
         <div className="space-y-16">
           {/* Overview */}
           <section className="space-y-4">
@@ -68,18 +69,18 @@ function ProjectDetail() {
             <p className="text-gray-300 leading-relaxed">{project.overview}</p>
           </section>
 
-          {/* Problem Section (Bullets + Image Right) */}
+          {/* Problem (now in bullet points) */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-3">
                 Problem
               </h2>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <ul className="list-disc list-inside text-gray-300 space-y-2 leading-relaxed">
                 {project.problem
                   .split(".")
-                  .filter((item) => item.trim() !== "")
-                  .map((item, idx) => (
-                    <li key={idx}>{item.trim()}</li>
+                  .filter((point) => point.trim() !== "")
+                  .map((point, idx) => (
+                    <li key={idx}>{point.trim()}</li>
                   ))}
               </ul>
             </div>
@@ -92,7 +93,7 @@ function ProjectDetail() {
             )}
           </section>
 
-          {/* Solution Section (Bullets + Image Left) */}
+          {/* Solution (now in bullet points) */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             {project.screens[2] && (
               <img
@@ -105,18 +106,18 @@ function ProjectDetail() {
               <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-pink-400 bg-clip-text text-transparent mb-3">
                 Solution
               </h2>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <ul className="list-disc list-inside text-gray-300 space-y-2 leading-relaxed">
                 {project.solution
                   .split(".")
-                  .filter((item) => item.trim() !== "")
-                  .map((item, idx) => (
-                    <li key={idx}>{item.trim()}</li>
+                  .filter((point) => point.trim() !== "")
+                  .map((point, idx) => (
+                    <li key={idx}>{point.trim()}</li>
                   ))}
               </ul>
             </div>
           </section>
 
-          {/* Process (Bullets) */}
+          {/* Process */}
           <section>
             <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent mb-4">
               Process
@@ -131,7 +132,7 @@ function ProjectDetail() {
             </ul>
           </section>
 
-          {/* Outcome (Bullets) */}
+          {/* Outcome */}
           <section>
             <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-4">
               Outcome
@@ -156,6 +157,46 @@ function ProjectDetail() {
             </p>
           </section>
         </div>
+
+        {/* Action Buttons */}
+        {(project.downloadLink || project.pdfLink || project.externalLink) && (
+          <div className="flex flex-wrap gap-4 mt-12">
+            {project.downloadLink && (
+              <a
+                href={project.downloadLink}
+                download
+                className="flex items-center gap-2 px-5 py-3 rounded-xl text-white font-medium bg-gradient-to-r from-pink-400 via-purple-500 to-blue-400 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                <Download size={18} />
+                Download Prototype folder
+              </a>
+            )}
+
+            {project.pdfLink && (
+              <a
+                href={project.pdfLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-5 py-3 rounded-xl text-white font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                <FileText size={18} />
+                View Design Document
+              </a>
+            )}
+
+            {project.externalLink && (
+              <a
+                href={project.externalLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-5 py-3 rounded-xl text-white font-medium bg-gradient-to-r from-purple-500 via-pink-400 to-blue-400 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                <ExternalLink size={18} />
+                Visit Project Repository
+              </a>
+            )}
+          </div>
+        )}
 
         {/* Gallery */}
         {project.screens.length > 3 && (

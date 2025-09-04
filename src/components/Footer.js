@@ -7,7 +7,7 @@ function Footer() {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://github.com/codedbyfefe"
+            href="https://github.com/codedbyfefe?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-400 transition-colors duration-200"
