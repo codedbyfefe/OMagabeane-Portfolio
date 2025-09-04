@@ -20,7 +20,7 @@ const projects = [
     slug: "portfolio-website",
     title: "Portfolio Website",
     description: "Web Design & Development — 7.6.25",
-    image: "/images/Portfolio1.png",
+    image: "/images/PRT1.png",
     role: "Designer & Developer — led concept creation, wireframing, prototyping, front-end development, and content curation.",
     tools: "React, TailwindCSS, Figma, Netlify, Github",
     overview:"A responsive, visually cohesive personal portfolio website designed to present my work as a front-end developer and UI/UX designer. The site highlights key projects across app design, web development, and game prototyping, while reflecting my design philosophy, technical skills, and personal brand. Built with clean, semantic HTML, CSS, and JavaScript (and optionally React for interactivity), the portfolio balances aesthetics with usability, ensuring potential clients, employers, and collaborators can easily explore my work and learn more about me.",
@@ -28,10 +28,12 @@ const projects = [
     solution:"I created a modern, minimal yet personality-driven portfolio website that serves as both a showcase of my work and a live example of my front-end and UI/UX skills.",
     process: "Researched modern portfolio trends and competitor sites in both design and tech industries.  Sketched wireframes to define content structure and navigation flow",
     screens:[
-    "/images/Portfolio1.png",   // main image at the top
+    "/images/PRT1.png",   // main image at the top
     "/images/PRT2.png",
     "/images/PRT3.png",
-    "/images/PRT4.png"
+    "/images/PRT4.png",
+    "/images/PRT5.png",
+    "/images/PRT6.png"
     ],
     outcome: "Clean and responsive personal portfolio website.The final portfolio is a clean, responsive, and professional platform that effectively communicates my skills and showcases my best work. Visitors can quickly browse through featured projects, read in-depth case studies, and understand my role in each. The portfolio webiste is still a work in progress as I am making continuous iterations to improve the overall experience of the entire wesbite.",
     reflection:"Future updates will include integrating a blog section for sharing design insights, adding a filterable project gallery, and experimenting with interactive components built in React. I also aim to continuously update the portfolio with new work to keep it relevant and demonstrate growth in both design and development skills."
