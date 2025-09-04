@@ -81,7 +81,7 @@ function Contact() {
                 </>
               ) : isSuccess ? (
                 <>
-                  <CheckCircle2 className="w-5 h-5 text-green-600" />
+                  <CheckCircle2 className="w-5 h-5 text-pink-600" />
                   Sent!
                 </>
               ) : (
@@ -92,7 +92,7 @@ function Contact() {
             {status && (
               <p
                 className={`text-sm mt-2 ${
-                  isSuccess ? "text-green-400" : "text-red-400"
+                  isSuccess ? "text-pink-400" : "text-red-400"
                 }`}
               >
                 {status}

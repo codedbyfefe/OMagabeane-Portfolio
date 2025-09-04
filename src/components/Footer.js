@@ -23,7 +23,7 @@ function Footer() {
             <Linkedin className="w-6 h-6 text-white" />
           </a>
           <a
-            href="https://instagram.com/yourusername"
+            href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-400 transition-colors duration-200"

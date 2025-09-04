@@ -18,18 +18,18 @@ function About() {
           <h1 className="text-5xl font-light leading-tight mb-6">
             I’m Ofentse,<br />
             a designer & developer<br />
-            passionate about the creating digital experiences.
+            passionate about the creating great digital experiences.
           </h1>
 
           <p className="text-gray-400 text-lg leading-relaxed mb-8">
            I started my journey in design and development at the University of Witwatersrand with a curiosity for how things work in interactive media.
-            Since then, I’ve explored various design systems, built full-stack application demos, digital game prototypes, research and
-            and collaborated on creative projects. I'm based in South Africa and enjoy merging design with technology to bring ideas to life.
+            Since then, I’ve explored various design systems, built application demos, digital game prototypes, research and
+            and collaborated on creative projects. I'm based in South Africa, Johannesburg and enjoy merging design with technology to bring ideas to life.
           </p>
 
           <p className="text-gray-400 leading-relaxed">
             Outside of coding and designing, you’ll find me learning new tools,
-            constantly pushing boundaries and challenging myself to build better projects, maybe even taking a nap after an intense workout. I believe in storytelling through design
+            constantly pushing boundaries and challenging myself to build better projects, maybe even taking a nap after an intense workout, or strressing over a missing semi-colon. I believe in storytelling through design
             and the power of simplicity.
           </p>
         </div>
@@ -44,8 +44,10 @@ function About() {
             "CSS3 / Tailwind",
             "JavaScript",
             "React",
+            "React Native",
             "Node.js",
             "Figma",
+            "Krita",
             "Git & GitHub",
             "C# (Unity based)",
           ].map((skill) => (

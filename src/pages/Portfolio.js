@@ -11,7 +11,7 @@ function Portfolio() {
         {/* Description */}
         <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12 text-center">
          ✨ A Peek Into My Work ✨ <br/>
-          Here’s a collection of projects that blend my love for thoughtful design, a bit of coding and a little bit of creative magic. From mobile apps that make life easier, to games that spark playful strategy, and a personal portfolio that ties it all together — each project is a mix of problem-solving, storytelling, and design that puts the user first.
+          Here’s a collection of projects I'm proud to present. These projects blend my love for thoughtful design, coding and a little bit of creative magic. From mobile app demos that make life easier, to game prototypes that spark playful strategy, and a personal portfolio that ties it all together — each project is a mix of problem-solving, storytelling, and design that puts the user first.
         </p>
 
         {/* Project Grid */}

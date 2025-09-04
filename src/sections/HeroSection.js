@@ -7,9 +7,8 @@ const Hero = () => {
         {/* Left side - Text/description */}
         <div className="flex flex-col justify-center px-8 md:px-16">
           <h1 className="text-4xl md:text-5xl font-light leading-snug mb-6">
-            Heyy there, I’m Ofentse.<br />
-            Front-end developer & UI/UX designer based <br />
-            in Johannesburg, SA.
+            Design meets code. <br />
+           I build elegant, user-focused digital products in Johannesburg.
           </h1>
           <p className="text-gray-400 text-sm">
             Let's get to know me and explore my work!
