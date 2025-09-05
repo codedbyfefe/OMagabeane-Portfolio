@@ -66,7 +66,7 @@ const projects = [
   },
   {
     slug: "resource-management-game",
-    title: "Resoruce Management Game",
+    title: "Resource Management Game",
     description: "Game Design & Development — 7.5.22",
     image: "/images/RM1.png",
     role: "Game Designer & Developer — led game concept creation, mechanic design, art direction, UI implementation, and integration of accessibility features.",
