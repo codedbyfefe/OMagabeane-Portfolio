@@ -44,11 +44,11 @@ function About() {
           </p>
 
           <p className="text-gray-400 leading-relaxed">
-            Outside of coding and designing, you’ll find me learning new tools,
+            Outside of coding and designing, you’ll find me learning new tools, conducting analyes,
             constantly pushing boundaries and challenging myself to build better
             projects, maybe even taking a nap after an intense workout, or
-            stressing over a missing semi-colon. I believe in storytelling
-            through design and the power of simplicity.
+            stressing over a missing semi-colon or trying to visualise data to make my ideas make sesne. I believe in storytelling
+            through design, merging visuals and technical components and the power of simplicity.
           </p>
         </div>
       </div>
