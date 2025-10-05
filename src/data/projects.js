@@ -16,6 +16,7 @@ const projects = [
     ],
     outcome: "What I have done so far: Done research on competitor apps. Managed to establish my project goals. Have some kind of styleguid to help me see my vision and what works, what could work. Worked on the front- portion of the project but may need to revisit this phase due to a few changes that may affect the overall project.",
     pdfLink: "/projects/ElevynConcept.pdf",         // <-- PDF file ( download cocept document)
+    externalLink: "https://github.com/codedbyfefe/ElevynApp",         // <-- External redirect (project folder)
     reflection:"I haven’t formulated a full solid reflection, but this is what I am learning as the project goes: Research is extremely important especially when the project you’re building has multiple competitors, I've also leanred the impotance of going back to square 1 and starting again if nothing is working or the concept doesnt speak to you anymore- I just shows that you are learning new things and growing. Setting a detailed project timeline for a solo project is very important, it helps me gauge how far I am, how much I’ve done, am I doing enough, have I over scoped the project. I’m learning and truly appreciating the art of goal setting and having a checklist at each check point you come across for the duration of the project: I’ve never really asked myself important questions while growing in the development space, such as: have I done enough during this phase of the project, do I need to go back and do more research, am I okay with revisiting a previous phase to make improvements because this phase is challenging to finding new potholes in my concept, which goals have I completed to full potential, which goals did I half-ass, which goals didn’t I reach and should I re-evaluate these goals, what have I learned at each project build phase…"
   },
   {
@@ -38,7 +39,8 @@ const projects = [
     "/images/PRT6.png"
     ],
     outcome: "Clean and responsive personal portfolio website.The final portfolio is a clean, responsive, and professional platform that effectively communicates my skills and showcases my best work. Visitors can quickly browse through featured projects, read in-depth case studies, and understand my role in each. The portfolio webiste is still a work in progress as I am making continuous iterations to improve the overall experience of the entire wesbite.",
-    reflection:"Future updates will include integrating a blog section for sharing design insights, adding a filterable project gallery, and experimenting with interactive components built in React. I also aim to continuously update the portfolio with new work to keep it relevant and demonstrate growth in both design and development skills."
+    reflection:"Future updates will include integrating a blog section for sharing design insights, adding a filterable project gallery, and experimenting with interactive components built in React. I also aim to continuously update the portfolio with new work to keep it relevant and demonstrate growth in both design and development skills.",
+    externalLink: "https://github.com/codedbyfefe/OMagabeane-Portfolio",         // <-- External redirect (project folder)
   },
   {
     slug: "UNII-App",
