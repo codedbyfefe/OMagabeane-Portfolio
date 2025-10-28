@@ -195,6 +195,18 @@ function ProjectDetail() {
                 Visit Project Repository
               </a>
             )}
+            {project.pdfLink && (
+              <a
+                href={project.pdfLink1}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-5 py-3 rounded-xl text-white font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                <FileText size={18} />
+                View Developer notes
+              </a>
+            )}
+
           </div>
         )}
 
