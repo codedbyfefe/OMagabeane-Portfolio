@@ -5,7 +5,7 @@ function WorkSection() {
     {
       title: "Elevyn App",
       description: "A Balanced Lifestyle App for Student-Athletes.",
-      image: "/images/Student-athlete lifestyle app.jpg",
+      image: "/images/Elevyn Poster.jpg",
       slug: "elevyn-app",
     },
     {
@@ -27,7 +27,7 @@ function WorkSection() {
         {projects.map((project, index) => (
           <Link
             key={index}
-            to={`/projects/${project.slug}`} // ✅ Internal route using slug
+            to={`/projects/${project.slug}`} // Internal route using slug
             className="group rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-1"
           >
             <div className="w-full h-64 bg-gray-100 overflow-hidden">

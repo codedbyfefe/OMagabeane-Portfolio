@@ -3,16 +3,16 @@ const projects = [
   {
     slug: "elevyn-app",
     title: "Elevyn Student-Athlete App",
-    description: "App Design & Development — 25.4.25- present",
-    image: "/images/Student-athlete lifestyle app.jpg",
+    description: "App Design & Development — 25.4.25- 25.11.9",
+    image: "/images/Elevyn Poster.jpg",
     role: "UX/UI Designer & Front-End Developer — led user research, competitor analysis, wireframing, prototyping in Figma, and implemented the front-end in React Native",
     tools: "Figma, React Native, Expo, Github",
     overview:"A mobile-first app I am currently working on which is designed to help student-athletes manage academics, training schedules, wellness, and performance tracking in one integrated platform. Elevyn bridges the gap between learning management systems and sports tracking tools, supporting the unique dual life of a student-athlete.",
     problem: "Student-athletes face the constant challenge of balancing intense training schedules, academic deadlines, and personal wellbeing — often relying on a fragmented mix of fitness apps, learning management systems, and generic productivity tools. This scattered approach leads to cognitive overload, poor time management, and a lack of contextual insights, as athletic performance is rarely connected to academic stress, recovery patterns, or mental wellness. With no dedicated platform designed for the unique dual life of student-athletes, this demographic remains underserved, resulting in missed opportunities for optimized performance, increased stress, and diminished balance between sport and study.",
     solution:"Elevyn addresses this gap by offering a unified, mobile-first platform that integrates academic planning, athletic performance tracking, and personal wellness management into a single, intuitive experience. The app combines features such as a dual-purpose calendar, task manager, wellness log, and performance dashboard, allowing users to see connections between their training, recovery, and academic progress. Designed with bold visuals, clear navigation, and accessible UI patterns, Elevyn reduces mental load, encourages balanced time management, and provides actionable insights tailored to the student-athlete lifestyle. Unlike existing tools, Elevyn is purpose-built to reflect the realities of juggling coursework with competitive sport, creating a holistic companion for growth, discipline, and long-term success.",
     process: "Conducted competitor research (Nike Training Club, Headspace, Canvas LMS, Notion) to identify feature gaps. Created user personas and journey maps to capture student-athlete needs.   Designed lo-fi and hi-fi prototypes in Figma, iterating after feedback. Built core screens in React Native (auth, dashboard, calendar, performance tracker, wellness log). Developed with mock data for demonstration, structured for future backend integration with Flask.",
-    screens: ["/images/Student-athlete lifestyle app.jpg",
-      "/images/ElevynLogo.png"
+    screens: ["/images/Elevyn Poster.jpg",
+      "/images/Elevyn Poster.jpg"
     ],
     outcome: "What I have done so far: Done research on competitor apps. Managed to establish my project goals. Have some kind of styleguid to help me see my vision and what works, what could work. Worked on the front- portion of the project but may need to revisit this phase due to a few changes that may affect the overall project.",
     pdfLink: "/projects/ElevynConcept.pdf",         // <-- PDF file ( download cocept document)
