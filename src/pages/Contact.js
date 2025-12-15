@@ -37,7 +37,7 @@ function Contact() {
 
  return (
   <section className="bg-black text-white px-6 py-24 min-h-screen">
-    <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-20 items-start animate-fade-in-up">
+    <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
 
       {/* Form Side */}
       <div className="pt-6">
