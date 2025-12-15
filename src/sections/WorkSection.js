@@ -18,7 +18,7 @@ function WorkSection() {
 
   return (
     <section className="px-6 py-20 bg-white text-center">
-      <h2 className="text-3xl font-bold mb-6">Recent Projects</h2>
+      <h2 className="text-3xl font-bold mb-6">Projects</h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-12">
         A showcase of my latest projects across design and development.
       </p>

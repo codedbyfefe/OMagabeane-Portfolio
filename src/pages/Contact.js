@@ -35,83 +35,104 @@ function Contact() {
       );
   };
 
-  return (
-    <section className="bg-black text-white px-6 py-24 min-h-screen">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center animate-fade-in-up">
-        {/* Form Side */}
-        <div>
-          <h2 className="text-4xl font-bold mb-6 tracking-wide">Contact Me</h2>
-          <p className="text-lg mb-8 text-gray-400">
-            Let’s work together and build great experiences — I’d love to hear from you.
-          </p>
+ return (
+  <section className="bg-black text-white px-6 py-24 min-h-screen">
+    <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-20 items-start animate-fade-in-up">
 
-          <form ref={form} onSubmit={sendEmail} className="space-y-5">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              required
-              className="w-full bg-gray-200 text-black placeholder-gray-500 px-4 py-3 rounded focus:outline-none focus:ring-2 focus:ring-white"
-            />
-            <input
-              type="email"
-              name="email_id"
-              placeholder="Email"
-              required
-              className="w-full bg-gray-200 text-black placeholder-gray-500 px-4 py-3 rounded focus:outline-none focus:ring-2 focus:ring-white"
-            />
-            <textarea
-              name="message"
-              placeholder="Message"
-              required
-              className="w-full bg-gray-200 text-black placeholder-gray-500 px-4 py-3 rounded h-40 resize-none focus:outline-none focus:ring-2 focus:ring-white"
-            />
+      {/* Form Side */}
+      <div className="pt-6">
+        <h2 className="text-4xl font-light mb-6 tracking-tight">
+          Let’s connect
+        </h2>
 
-            <button
-              type="submit"
-              disabled={isSending}
-              className={`bg-white text-black px-6 py-3 rounded font-semibold flex items-center gap-2 transition-all duration-300 ${
-                isSending ? "opacity-70 cursor-not-allowed" : "hover:bg-gray-200"
+        <p className="text-lg mb-10 text-gray-400 max-w-md">
+          Have a project in mind or just want to say hello?  
+          I’d love to hear from you.
+        </p>
+
+        <form ref={form} onSubmit={sendEmail} className="space-y-5 max-w-md">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            className="w-full bg-neutral-900 text-white placeholder-gray-500 px-4 py-3 border border-neutral-700 focus:border-white focus:outline-none transition"
+          />
+
+          <input
+            type="email"
+            name="email_id"
+            placeholder="Email"
+            required
+            className="w-full bg-neutral-900 text-white placeholder-gray-500 px-4 py-3 border border-neutral-700 focus:border-white focus:outline-none transition"
+          />
+
+          <textarea
+            name="message"
+            placeholder="Message"
+            required
+            className="w-full bg-neutral-900 text-white placeholder-gray-500 px-4 py-3 border border-neutral-700 h-36 resize-none focus:border-white focus:outline-none transition"
+          />
+
+          <button
+            type="submit"
+            disabled={isSending}
+            className={`mt-4 inline-flex items-center gap-2 px-8 py-3 border border-white text-white font-medium tracking-wide transition-all duration-300 ${
+              isSending
+                ? "opacity-60 cursor-not-allowed"
+                : "hover:bg-white hover:text-black"
+            }`}
+          >
+            {isSending ? "Sending..." : "Send message"}
+          </button>
+
+          {status && (
+            <p
+              className={`text-sm mt-2 ${
+                isSuccess ? "text-pink-400" : "text-red-400"
               }`}
             >
-              {isSending ? (
-                <>
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                  Sending...
-                </>
-              ) : isSuccess ? (
-                <>
-                  <CheckCircle2 className="w-5 h-5 text-pink-600" />
-                  Sent!
-                </>
-              ) : (
-                <>Send</>
-              )}
-            </button>
-
-            {status && (
-              <p
-                className={`text-sm mt-2 ${
-                  isSuccess ? "text-pink-400" : "text-red-400"
-                }`}
-              >
-                {status}
-              </p>
-            )}
-          </form>
-        </div>
-
-        {/* Image Side */}
-        <div className="hidden md:block">
-          <img
-            src="/images/grad.jpg"
-            alt="Contact Illustration"
-            className="w-full rounded-xl shadow-lg object-cover"
-          />
-        </div>
+              {status}
+            </p>
+          )}
+        </form>
       </div>
-    </section>
-  );
+{/* Image Side */}
+<div className="hidden md:flex justify-center items-center relative">
+  <div className="relative w-full max-w-md">
+
+    {/* Visible gradient glow */}
+    <div
+      className="
+        absolute -inset-12
+        bg-gradient-to-tr
+        from-pink-500/30
+        via-purple-500/20
+        to-blue-500/30
+        blur-3xl
+        opacity-80
+      "
+    />
+
+    {/* Image */}
+    <img
+      src="/images/FormImg.png"
+      alt="Contact Illustration"
+      className="
+        relative
+        z-10
+        w-full
+        rounded-md
+        object-cover
+        shadow-2xl
+      "
+    />
+  </div>
+</div>
+    </div>
+  </section>
+);
+
 }
 
 export default Contact;

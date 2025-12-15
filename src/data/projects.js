@@ -25,30 +25,7 @@ const projects = [
     pdfLink: "/projects/ElevynConcept.pdf",         // <-- PDF file ( download cocept document)
     pdfLink1: "/projects/Eleyndevnotes.pdf",  
     externalLink: "https://github.com/codedbyfefe/ElevynApp",         // <-- External redirect (project folder)
-    reflection:"I haven’t formulated a full solid reflection, but this is what I am learning as the project goes: Research is extremely important especially when the project you’re building has multiple competitors, I've also leanred the impotance of going back to square 1 and starting again if nothing is working or the concept doesnt speak to you anymore- I just shows that you are learning new things and growing. Setting a detailed project timeline for a solo project is very important, it helps me gauge how far I am, how much I’ve done, am I doing enough, have I over scoped the project. I’m learning and truly appreciating the art of goal setting and having a checklist at each check point you come across for the duration of the project: I’ve never really asked myself important questions while growing in the development space, such as: have I done enough during this phase of the project, do I need to go back and do more research, am I okay with revisiting a previous phase to make improvements because this phase is challenging to finding new potholes in my concept, which goals have I completed to full potential, which goals did I half-ass, which goals didn’t I reach and should I re-evaluate these goals, what have I learned at each project build phase…"
-  },
-  {
-    slug: "portfolio-website",
-    title: "Portfolio Website",
-    description: "Web Design & Development — 7.6.25",
-    image: "/images/PRT1.png",
-    role: "Designer & Developer — led concept creation, wireframing, prototyping, front-end development, and content curation.",
-    tools: "React, TailwindCSS, Figma, Netlify, Github",
-    overview:"A responsive, visually cohesive personal portfolio website designed to present my work as a front-end developer and UI/UX designer. The site highlights key projects across app design, web development, and game prototyping, while reflecting my design philosophy, technical skills, and personal brand. Built with clean, semantic HTML, CSS, and JavaScript (and optionally React for interactivity), the portfolio balances aesthetics with usability, ensuring potential clients, employers, and collaborators can easily explore my work and learn more about me.",
-    problem: "In the competitive tech and design industry, having an online portfolio is essential, but many designers and developers struggle to present their work in a way that is both visually appealing and easy to navigate. I needed a portfolio that not only showcased my work effectively but also demonstrated my own design and development capabilities.",
-    solution:"I created a modern, minimal yet personality-driven portfolio website that serves as both a showcase of my work and a live example of my front-end and UI/UX skills.",
-    process: "Researched modern portfolio trends and competitor sites in both design and tech industries.  Sketched wireframes to define content structure and navigation flow",
-    screens:[
-    "/images/PRT1.png",   // main image at the top
-    "/images/PRT2.png",
-    "/images/PRT3.png",
-    "/images/PRT4.png",
-    "/images/PRT5.png",
-    "/images/PRT6.png"
-    ],
-    outcome: "Clean and responsive personal portfolio website.The final portfolio is a clean, responsive, and professional platform that effectively communicates my skills and showcases my best work. Visitors can quickly browse through featured projects, read in-depth case studies, and understand my role in each. The portfolio webiste is still a work in progress as I am making continuous iterations to improve the overall experience of the entire wesbite.",
-    reflection:"Future updates will include integrating a blog section for sharing design insights, adding a filterable project gallery, and experimenting with interactive components built in React. I also aim to continuously update the portfolio with new work to keep it relevant and demonstrate growth in both design and development skills.",
-    externalLink: "https://github.com/codedbyfefe/OMagabeane-Portfolio",         // <-- External redirect (project folder)
+    reflection:"The project forced me to confront my perfectionism. I learned to distinguish between essential for MVP and nice to have. I also realized that sometimes, building software means choosing reliability over ambition. I wanted the meditation feature to be smart, dynamic, algorithmically filtered. What mattered was not that it was technologically impressive, but that it worked every time. The feedback was also quite helpful as I had to adjust how I approach the next phase of each feature development; the feedback from crit 3: “Setting clearer, more specific milestones may help: instead of 'completing the Frontend,' try 'implement style guide typography by [date], conduct 3 user tests by [date], resolve Firebase authentication persistence by [date]'” helped me understand what I needed to improve in terms of moving forward and attaining something tangible and scalable. It was also very important that I consult with peers in terms of testing the app—the only flaw was that user testing for the app was conducted much later, which led to major changes needing to be implemented at a very late stage of the development project. My entire project planning needs improvement, as well as better time management, since the time/project hours I had set for myself were not fully followed. The philosophical shift was: solving one small problem reliably is more valuable than solving ten problems imperfectly. Elevyn represents the most technically complex and personally meaningful project I have ever completed. The app began as an idea formed from personal frustration, matured through rigorous design and development, and emerged as a working tool with real-world value. The project strengthened my technical skills in React Native, Firebase, and API integration, and taught me intangible lessons about endurance, scope management, debugging, and trusting the process. While not every feature reached perfect completion, the application delivers its core promise: Elevyn helps student-athletes manage the dual demands of academic and athletic life without losing themselves in the process. This project is more than an app; it is evidence of growth—technical, academic, and personal."
   },
   {
     slug: "UNII-App",
@@ -119,6 +96,29 @@ const projects = [
     externalLink: "https://github.com/codedbyfefe/Sushi-Chef-",         // <-- External redirect (project folder)
     downloadLink: "/projects/SushiChefBuild.zip",  // <-- EXE file Download
     reflection:"This project highlighted the importance of scoping and prioritisation when designing games. While I initially explored more complex mechanics and systems, narrowing the focus to a simple, well-functioning core loop proved to be the most effective approach. Choosing a single currency and removing timers helped reduce player stress and resulted in a more comfortable and accessible experience. I also learned the value of focusing on functionality before visual polish, as ensuring that the core mechanics worked reliably made later design decisions clearer and more intentional. Challenges arose when implementing more advanced features, such as converting large numbers into readable text formats, which helped me recognise my current technical limitations and the importance of iterative development. Overall, this project helped me better understand my strengths in conceptual design and visual consistency, while also highlighting areas for growth in problem-solving and time management."
+  },
+  {
+    slug: "portfolio-website",
+    title: "Portfolio Website",
+    description: "Web Design & Development — 7.6.25",
+    image: "/images/PRT1.png",
+    role: "Designer & Developer — led concept creation, wireframing, prototyping, front-end development, and content curation.",
+    tools: "React, TailwindCSS, Figma, Netlify, Github",
+    overview:"A responsive, visually cohesive personal portfolio website designed to present my work as a front-end developer and UI/UX designer. The site highlights key projects across app design, web development, and game prototyping, while reflecting my design philosophy, technical skills, and personal brand. Built with clean, semantic HTML, CSS, and JavaScript (and optionally React for interactivity), the portfolio balances aesthetics with usability, ensuring potential clients, employers, and collaborators can easily explore my work and learn more about me.",
+    problem: "In the competitive tech and design industry, having an online portfolio is essential, but many designers and developers struggle to present their work in a way that is both visually appealing and easy to navigate. I needed a portfolio that not only showcased my work effectively but also demonstrated my own design and development capabilities.",
+    solution:"I created a modern, minimal yet personality-driven portfolio website that serves as both a showcase of my work and a live example of my front-end and UI/UX skills.",
+    process: "Researched modern portfolio trends and competitor sites in both design and tech industries.  Sketched wireframes to define content structure and navigation flow",
+    screens:[
+    "/images/PRT1.png",   // main image at the top
+    "/images/PRT2.png",
+    "/images/PRT3.png",
+    "/images/PRT4.png",
+    "/images/PRT5.png",
+    "/images/PRT6.png"
+    ],
+    outcome: "Clean and responsive personal portfolio website.The final portfolio is a clean, responsive, and professional platform that effectively communicates my skills and showcases my best work. Visitors can quickly browse through featured projects, read in-depth case studies, and understand my role in each. The portfolio webiste is still a work in progress as I am making continuous iterations to improve the overall experience of the entire wesbite.",
+    reflection:"Future updates will include integrating a blog section for sharing design insights, adding a filterable project gallery, and experimenting with interactive components built in React. I also aim to continuously update the portfolio with new work to keep it relevant and demonstrate growth in both design and development skills.",
+    externalLink: "https://github.com/codedbyfefe/OMagabeane-Portfolio",         // <-- External redirect (project folder)
   },
   
   
