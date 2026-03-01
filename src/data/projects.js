@@ -3,6 +3,7 @@ const projects = [
   {
     slug: "elevyn-app",
     title: "Elevyn Student-Athlete App Demo",
+    category: "Apps",
     description: "App Design & Development — 9.11.25",
     image: "/images/Elevyn Poster.jpg",
     role: "UX/UI Designer & Front-End Developer — led user research, competitor analysis, wireframing, prototyping in Figma, and implemented the front-end in React Native",
@@ -30,6 +31,7 @@ const projects = [
   {
     slug: "UNII-App",
     title: "UNII Student App Demo",
+    category: "Apps",
     description: "App Design & Development — 8.11.23",
     image: "/images/UNII1.png",
     role: "UX/UI Designer & Front-End Developer(programmer) — contributed to user research, wireframing, and prototyping; collaborated on feature scoping and UI implementation",
@@ -56,6 +58,7 @@ const projects = [
   {
     slug: "resource-management-game",
     title: "Resource Management Game",
+    category: "Games",
     description: "Game Design & Development — 7.5.22",
     image: "/images/RM1.png",
     role: "Game Designer & Developer — led game concept creation, mechanic design, art direction, UI implementation, and integration of accessibility features.",
@@ -79,6 +82,7 @@ const projects = [
   {
     slug: "sushi-game",
     title: "Clicker Game",
+    category: "Games",
     description: "Game Design & Development — 9.6.21",
     image: "/images/SG1.png",
     role: "Game Designer & Developer — led game concept creation, mechanic design, art direction and UI implementation",
@@ -100,6 +104,7 @@ const projects = [
   {
     slug: "portfolio-website",
     title: "Portfolio Website",
+    category: "Websites",
     description: "Web Design & Development — 7.6.25",
     image: "/images/PRT1.png",
     role: "Designer & Developer — led concept creation, wireframing, prototyping, front-end development, and content curation.",
