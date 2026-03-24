@@ -14,5 +14,5 @@ A personal portfolio website for a developer and designer, showcasing selected p
 
 ## Screenshots
 ![ Main Screenshot](public/images/PRT1.png)
-![Second Screenshot](public/images/PRT4png)
+![Second Screenshot](public/images/PRT4.png)
 ![Second Screenshot](public/images/PRT5.png)
