@@ -1,5 +1,23 @@
 // src/data/projects.js
 const projects = [
+    {
+    slug: "the-semantic-brancer",
+    title: "The Semantic Brancher",
+    category: "UI/UX",
+    description: "Experimental Research Probe — 10.05.26",
+    image: "/images/TSB.png",
+    role: "Developer, UX Engineer",
+    tools: "React, Typescript, PostgresSQL, D3.js",
+    overview:"Does the conventional chat bubble interface hinder the articulation of complex ideas by enforcing a linear path?",
+    problem: "Current AI interfaces typically rely on a chronological, single-path history. This experiment research probe seeks to interrogate whether this structure restricts iterative control. When a user cannot easily branch away from a specific output, their ability to refine or explore divergent possibilities is limited by the previous context.",
+    solution:"The Semantic Brancher is designed as an experimental probe to explore these frictions, by treating conversation history as a manipulable state tree, the project asks:. How does a branching structure facilitate the articulation of non-linear thoughts?. Does the ability to fork a conversation improve iterative control over the model's outputs?. What happens to the creative process when a user can manipulate dialogue as a visual, branching object rather than a fixed sequence?",
+    process: "Under Construction",
+     screens: ["/images/TSB.png",
+  ],
+    outcome: "Under Construction",
+    externalLink: "https://github.com/codedbyfefe/The-Semantic-Brancher",         // <-- External redirect (project folder)
+    reflection:"Under Construction",
+  },
   {
     slug: "elevyn-app",
     title: "Elevyn Student-Athlete App Demo",
