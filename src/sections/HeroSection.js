@@ -8,14 +8,13 @@ const Hero = () => {
         {/* Left – Text */}
         <div className="max-w-xl">
           <h1 className="text-4xl md:text-5xl font-light leading-tight mb-6">
-            Front-end development,<br />
-            shaped by design thinking.
+            Engineering front-end solutions with a<br />
+           product mindset.
           </h1>
 
           <p className="text-gray-400 text-lg leading-relaxed max-w-md">
-            I’m a front-end software developer who builds thoughtful, visually
-            refined interfaces — translating ideas into clean, usable digital
-            experiences.
+          I am a Software Developer who builds with a Product Engineering mindset. 
+          I'm intreseted in specialising in bridging the gap between complex technical architecture and the structural design of human intent.
           </p>
         </div>
 
