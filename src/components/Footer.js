@@ -1,4 +1,4 @@
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, FileText} from "lucide-react";
 
 function Footer() {
   return (
@@ -22,11 +22,20 @@ function Footer() {
           >
             <Linkedin className="w-6 h-6 text-white" />
           </a>
+           <a
+            href="https://drive.google.com/file/d/1eq1yyV0Ae-2aZV48s4-BWZ3K0A2K2T2F/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 hover:text-pink-400 transition-colors duration-200"
+          >
+            <FileText className="w-6 h-6 text-white" />
+            <span className="text-sm">CV</span>
+          </a>
         </div>
 
         {/* Copyright */}
         <p className="text-xs text-gray-400">
-          © 2025 Ofentse Magabeane Portfolio. All rights reserved.
+          © 2026 Ofentse Magabeane Portfolio. All rights reserved.
         </p>
       </div>
     </footer>
