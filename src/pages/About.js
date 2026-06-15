@@ -6,11 +6,10 @@ function About() {
     { name: "CSS3 / Tailwind", icon: "devicon-tailwindcss-plain" },
     { name: "JavaScript", icon: "devicon-javascript-plain" },
     { name: "React", icon: "devicon-react-original" },
-    { name: "React Native", icon: "devicon-react-original" },
     { name: "Node.js", icon: "devicon-nodejs-plain" },
     { name: "Figma", icon: "devicon-figma-plain" },
-    { name: "Krita", icon: "devicon-photoshop-plain" }, // placeholder (no Krita icon in devicon)
     { name: "Git & GitHub", icon: "devicon-git-plain" },
+    { name: "Docker", icon: "devicon-docker-plain" },
     { name: "C# (Unity)", icon: "devicon-csharp-plain" },
   ];
 
@@ -36,7 +35,7 @@ function About() {
         {/* Bio text on the right */}
 <div className="order-1 lg:order-2 max-w-xl lg:ml-auto">
   <h1 className="text-4xl lg:text-5xl font-light leading-tight mb-8">
-    I’m <span className="font-medium">Ofentse</span>,<br />
+    I’m <span className="font-light">Ofentse</span>,<br />
     a developer<br />
     crafting thoughtful digital experiences.
   </h1>
@@ -52,8 +51,10 @@ function About() {
   <p className="text-gray-400 leading-relaxed mb-6">
     Since then, I’ve explored design systems, built application demos, created
     digital game prototypes, conducted research, and collaborated on creative
-    projects. Based in Johannesburg, South Africa, I enjoy merging design and
-    technology to bring ideas to life with clarity and intention.
+    projects as I continue to develop a product engineering mindset. 
+    I specialise in bridging the gap between complex technical architecture and the structural design of human intent. 
+    My background in Digital Arts isn't about "art"—it's about the Engineering of Interaction.
+   I treat interfaces as spaces where human intent meets machine logic.
   </p>
 
   <p className="text-gray-400 leading-relaxed">
@@ -69,7 +70,7 @@ function About() {
       {/* Skills Section */}
       <div className="mt-28 max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-extrabold mb-12 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
-          Skills
+          Technical Stack
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
           {skills.map((skill, idx) => (
