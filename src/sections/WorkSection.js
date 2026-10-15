@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 function WorkSection() {
   const projects = [
      {
+      title: "Absa Family",
+      description: "Absa Design Hackathon project.",
+      image: "/images/absa fam.jpeg",
+      slug: "absa-family",
+    },
+     {
       title: "The Semantic Brancher",
       description: "An experimental research probe.",
-      image: "/images/TSB.png",
+      image: "/images/SB.png",
       slug: "the-semantic-brancher",
-    },
-    {
-      title: "Elevyn App",
-      description: "A Balanced Lifestyle App for Student-Athletes.",
-      image: "/images/Elevyn Poster.jpg",
-      slug: "elevyn-app",
     },
   ];
 

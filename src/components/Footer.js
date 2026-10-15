@@ -23,7 +23,7 @@ function Footer() {
             <Linkedin className="w-6 h-6 text-white" />
           </a>
            <a
-            href="https://drive.google.com/file/d/1eq1yyV0Ae-2aZV48s4-BWZ3K0A2K2T2F/view?usp=drive_link"
+            href="https://docs.google.com/document/d/1miaf4BLT3yCAqsjU0vPz1f7YzZU4qt1_pCilF6NEVmE/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 hover:text-pink-400 transition-colors duration-200"
