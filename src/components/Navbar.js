@@ -72,7 +72,7 @@ function Navbar() {
         <div className="hidden md:flex items-center justify-center relative">
           <nav
             aria-label="Left navigation"
-            className="absolute left-0 flex items-center gap-6 lg:gap-12"
+           className="absolute left-[18%] flex items-center gap-5 lg:gap-8"
           >
             {linksLeft.map(renderLink)}
           </nav>
@@ -89,7 +89,7 @@ function Navbar() {
 
           <nav
             aria-label="Right navigation"
-            className="absolute right-0 flex items-center gap-6 lg:gap-12"
+            className="absolute right-[18%] flex items-center gap-5 lg:gap-8"
           >
             {linksRight.map(renderLink)}
           </nav>
