@@ -13,8 +13,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-gray-400 text-lg leading-relaxed max-w-md">
-          I am a Software Developer who builds with a Product Engineering mindset. 
-          I'm intreseted in specialising in bridging the gap between complex technical architecture and the structural design of human intent.
+          I’m a Software Developer who loves building things that actually make sense to users. I focus on connecting solid frontend architecture with clean, thoughtful design.
           </p>
         </div>
 
