@@ -6,16 +6,16 @@ const projects = [
     category: "UI/UX",
     description: "ABSA Design Hackathon — 16.10.26",
     image: "/images/absa fam.jpeg",
-    role: "Protoyper, UX Engineer, Researcher",
+    role: "Protoyper, UI/UX Engineer, Researcher",
     tools: "Figma",
     overview:"Represented Wits University, placing 3rd in the hackathon by designing ABSA Family, an innovative in-app experience turning individual accounts into household relationships.Created a platform featuring shared family investment portfolios (stocks, crypto, commodities, and TFSAs) combined with youth goal-tracking and safe simulations to drive financial literacy at home.",
     problem: "",
     solution:"",
-    process: "Under Construction",
+    process: "Under Construction...",
      screens: ["/images/absa fam.jpeg",
   ],
-    outcome: "Our Team placed 3rd place out of 10 teams that participated in the Team Hackathon.",
-    externalLink: "https://github.com/codedbyfefe/The-Semantic-Brancher",         // <-- External redirect (project folder)
+    outcome: "Our Team placed 3rd place out of 10 teams that participated in the Team Hackathon. The team leanred how to work with real word contraints/limitations. We leanred how to work with a time limit- we had 5 hours to complete the challenge before presenting.",
+    externalLink: "",         // <-- External redirect (project folder)
     reflection:"Under Construction",
   },
     {
@@ -29,12 +29,12 @@ const projects = [
     overview:"Does the conventional chat bubble interface hinder the articulation of complex ideas by enforcing a linear path?",
     problem: "Current AI interfaces typically rely on a chronological, single-path history. This experiment research probe seeks to interrogate whether this structure restricts iterative control. When a user cannot easily branch away from a specific output, their ability to refine or explore divergent possibilities is limited by the previous context.",
     solution:"The Semantic Brancher is designed as an experimental probe to explore these frictions, by treating conversation history as a manipulable state tree, the project asks:. How does a branching structure facilitate the articulation of non-linear thoughts?. Does the ability to fork a conversation improve iterative control over the model's outputs?. What happens to the creative process when a user can manipulate dialogue as a visual, branching object rather than a fixed sequence?",
-    process: "Under Construction",
+    process: "Under Construction...",
      screens: ["/images/SB.png",
   ],
-    outcome: "Under Construction",
+    outcome: "Under Construction...",
     externalLink: "https://github.com/codedbyfefe/The-Semantic-Brancher",         // <-- External redirect (project folder)
-    reflection:"Under Construction",
+    reflection:"Under Construction...",
   },
   {
     slug: "elevyn-app",
