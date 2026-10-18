@@ -18,18 +18,25 @@ const Hero = () => {
         </div>
 
  {/* Right – Image */}
-<div className="hidden md:flex justify-center items-start">
+
+<div className="hidden md:flex justify-center items-center relative">
+  {/* Purple glow behind the image */}
+  <div className="absolute inset-0 bg-purple-600/20 blur-3xl rounded-full scale-75" />
+
   <img
     src="/images/Heroimg.png"
-    alt="Portrait"
+    alt="Black woman coding in a neon-lit workspace"
     className="
+      relative
       w-full
-      max-w-xl
-      h-auto
+      max-w-2xl
+      h-[480px]
       object-cover
+      object-center
       rounded-sm
-      shadow-xl
-      -mt-8
+      shadow-[0_0_60px_rgba(139,92,246,0.15)]
+      -mt-4
+      z-10
     "
   />
 </div>
