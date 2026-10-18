@@ -19,7 +19,7 @@ function Portfolio() {
         {/* Heading */}
         <div className="text-center mb-20">
           <h2 className="text-5xl font-light tracking-tight mb-6">
-           Work
+           Projects
           </h2>
 
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
