@@ -11,6 +11,7 @@ function About() {
     { name: "Git & GitHub", icon: "devicon-git-plain" },
     { name: "Docker", icon: "devicon-docker-plain" },
     { name: "C# (Unity)", icon: "devicon-csharp-plain" },
+   { name: "PostgreSQL (Relational Databases)", icon: "devicon-postgresql-plain" },
   ];
 
   return (
@@ -49,20 +50,11 @@ function About() {
 
   {/* Body text */}
   <p className="text-gray-400 leading-relaxed mb-6">
-    Since then, I’ve explored design systems, built application demos, created
-    digital game prototypes, conducted research, and collaborated on creative
-    projects as I continue to develop a product engineering mindset. 
-    I specialise in bridging the gap between complex technical architecture and the structural design of human intent. 
-    My background in Digital Arts isn't about "art"—it's about the Engineering of Interaction.
-   I treat interfaces as spaces where human intent meets machine logic.
+   Since then, I’ve explored design systems, built application demos, created digital game prototypes, conducted research, and collaborated on creative projects as I continue to sharpen my craft. My background in Digital Arts isn’t about traditional art—it’s about the engineering of interaction. I treat interfaces as spaces where human intent meets machine logic.
   </p>
 
   <p className="text-gray-400 leading-relaxed">
-    Outside of coding and designing, I’m usually learning new tools, refining my
-    craft, or pushing myself to build better projects — sometimes after an
-    intense workout, sometimes while stressing over a missing semicolon. I
-    believe in storytelling through design, strong visual systems, and the power
-    of simplicity.
+   Outside of coding and designing, I’m usually learning new tools, exploring modern tech stacks, or pushing myself to build better projects — sometimes after an intense workout, sometimes while stressing over a missing semicolon. I believe in storytelling through design, strong visual systems, and the power of simplicity.
   </p>
 </div>
   </div>
