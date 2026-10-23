@@ -69,7 +69,7 @@ function ProjectDetail() {
             <p className="text-gray-300 leading-relaxed">{project.overview}</p>
           </section>
 
-          {/* Problem (now in bullet points) */}
+          {/* Problem */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-3">
@@ -93,7 +93,7 @@ function ProjectDetail() {
             )}
           </section>
 
-          {/* Solution (now in bullet points) */}
+          {/* Solution */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             {project.screens[2] && (
               <img
