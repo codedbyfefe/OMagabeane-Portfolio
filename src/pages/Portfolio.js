@@ -23,27 +23,42 @@ function Portfolio() {
           </h2>
 
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            I design systems. I build interfaces. I prototype interactive worlds.
+            I design systems. I build interfaces. I prototype interactive worlds and experiences.
             My work sits at the intersection of front-end engineering,
             UI/UX thinking, and game systems design.
           </p>
         </div>
 
-        {/* Filter Tabs */}
-        <div className="flex justify-center flex-wrap gap-8 mb-20 border-b border-neutral-800 pb-6">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setActiveCategory(category)}
-              className={`text-sm tracking-widest uppercase transition-all duration-300 ${
-                activeCategory === category
-                  ? "text-white border-b border-white pb-2"
-                  : "text-gray-500 hover:text-white"
-              }`}
-            >
-              {category}
-            </button>
-          ))}
+
+           {/* Category filters */}
+        <div className="flex justify-center flex-wrap gap-3 md:gap-4 mb-12 md:mb-16">
+          {categories.map((category) => {
+            const isActive = activeCategory === category;
+
+            return (
+              <button
+                key={category}
+                type="button"
+                onClick={() => setActiveCategory(category)}
+                aria-pressed={isActive}
+                className={`
+                  relative rounded-full px-5 py-2.5 text-xs md:text-sm
+                  uppercase tracking-[0.12em]
+                  border transition-all duration-300
+                  focus-visible:outline-none focus-visible:ring-2
+                  focus-visible:ring-purple-400 focus-visible:ring-offset-2
+                  focus-visible:ring-offset-black
+                  ${
+                    isActive
+                      ? "border-transparent bg-gradient-to-r from-blue-500 via-violet-500 to-fuchsia-500 text-white shadow-[0_0_20px_rgba(139,92,246,0.2)]"
+                      : "border-white/10 bg-white/[0.03] text-gray-400 hover:text-white hover:border-purple-400/50 hover:bg-purple-500/[0.08]"
+                  }
+                `}
+              >
+                {category}
+              </button>
+            );
+          })}
         </div>
 
         {/* Grid */}
