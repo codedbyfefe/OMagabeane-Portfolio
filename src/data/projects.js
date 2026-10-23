@@ -1,4 +1,3 @@
-// src/data/projects.js
 const projects = [
     {
     slug: "absa-family",
@@ -9,14 +8,15 @@ const projects = [
     role: "Protoyper, UI/UX Engineer, Researcher",
     tools: "Figma",
     overview:"Represented Wits University, placing 3rd in the hackathon by designing ABSA Family, an innovative in-app experience turning individual accounts into household relationships.Created a platform featuring shared family investment portfolios (stocks, crypto, commodities, and TFSAs) combined with youth goal-tracking and safe simulations to drive financial literacy at home.",
-    problem: "",
-    solution:"",
-    process: "Under Construction...",
-     screens: ["/images/absa fam.jpeg",
+    problem: "The hackathon challenge: How might Absa use customer experience as it’s primary driver of growth among young customers? How might we help Absa attract, engage and retain young customers (ages 0-30yrs) by creating experience that put them first, grow with them and stay with them as their need evolve?",
+    solution:"The solution to the challenge was Absa Family, where we focused on children aged 6-13 and their parents as well. We explored and dicussed how parent essentially control their children’s finances in a way and how by default their children will bank with the same bank as well until the child decides when their older they would like to switch banks. So the solution explores how family-centred experiences could introduce younger customers to banking while involving parents in the journey.",
+    process: "The team conducted research and we did brainstorming before the hackathon. We assigned roles to each teammate before the hackathon during our discussion for efficiency. We discussed Absa’s current projects, previous projects and brainstomred on how we can incorparate previous ideas or build new ideas around what they are already doing (ie. we as a team decided to include their chatbot Abby in whatever idea we had chosen to run with, this was to show that we could build on what already exist and it all comes down on how we can include and improve the idea). We conducted further research individually and complied a shared document with all the ideas we had and any new research information we had discvovered. Once the challenge was revealed we began auditing the ideas we have and trying to adapt these ideas to the challenge that was presented. The team then split tasks according to the roles we had assigned to eachother, I began to work on the UI/UX as well as the prototyping, due to only having 5 hours to complete the challenge I could not neccessarily code the prototype, so the alternative was to use the prototype feature in Figma to see how the feature would work if it were to be used in real time. During research and devlopment our team constantly asked for feedback from the mentors present to see if our idea worked well with the brief, where we need to improve and what we should be researching. We then came across a hurdle which, multiple teams have the exact same idea so we had to pivot and think of ways to either make the idea stand out or think of a new idea. We then researched competitors and looked at what they did well and how the implemented it. We also kept documenting the feedback and what we had been doing to keep track of our process and apply any feedback accordingly.",
+    screens: ["/images/absa fam.jpeg",
   ],
     outcome: "Our Team placed 3rd place out of 10 teams that participated in the Team Hackathon. The team leanred how to work with real word contraints/limitations. We leanred how to work with a time limit- we had 5 hours to complete the challenge before presenting.",
-    externalLink: "",         // <-- External redirect (project folder)
-    reflection:"Under Construction",
+    pdfLink: "",         // <-- External redirect (Absa family presentation)
+    externalLink: "/projects/AbsaFamily.pdf",  //<-- I will add Github link once the project is live
+    reflection:"The experience overall was great we learned a lot from industry professionals, presented in front of execs and shared our idea with our peers. This experience made me realise that I still have a lot to learn from a technical point of view, although this was more of a design challenge I further refelcted on the technical restraints that could possibly be a hurdle if we were to further polish or build the idea we had, for example for the kids interface and app functionality how would we make it user friendly for them so it’s not too complicated for them to use, how would we design and build a system that is sustainable and maintainable for them as they grow up with the app. I also learned the improtance of research in terms of how to improve something that already exists, why you’re chosing this idea or system, researching competitors, what they did well, how the implememented certain ideas and implementing that research in real time. My team and I decided to polish the idea, now that we have more time to work on it, it’s a great opportunity to brainstorm more ideas on how to improve the concept and further build on the concept and possibly prorotype the idea so we can see how the idea would work in real time, with real word constraints.",
   },
     {
     slug: "the-semantic-brancer",
@@ -30,7 +30,7 @@ const projects = [
     problem: "Current AI interfaces typically rely on a chronological, single-path history. This experiment research probe seeks to interrogate whether this structure restricts iterative control. When a user cannot easily branch away from a specific output, their ability to refine or explore divergent possibilities is limited by the previous context.",
     solution:"The Semantic Brancher is designed as an experimental probe to explore these frictions, by treating conversation history as a manipulable state tree, the project asks:. How does a branching structure facilitate the articulation of non-linear thoughts?. Does the ability to fork a conversation improve iterative control over the model's outputs?. What happens to the creative process when a user can manipulate dialogue as a visual, branching object rather than a fixed sequence?",
     process: "Under Construction...",
-     screens: ["/images/SB.png",
+    screens: ["/images/SB.png",
   ],
     outcome: "Under Construction...",
     externalLink: "https://github.com/codedbyfefe/The-Semantic-Brancher",         // <-- External redirect (project folder)
