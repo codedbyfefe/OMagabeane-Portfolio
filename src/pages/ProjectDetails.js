@@ -12,15 +12,15 @@ function ProjectDetail() {
   return (
     <div className="bg-[#0c0c0c] text-white px-6 py-16">
       <div className="max-w-6xl mx-auto space-y-20">
+
         {/* Back Button */}
-        <div>
-          <a
-            href="/portfolio"
-            className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-300 bg-[#1a1a1a] rounded-full border border-gray-800 hover:bg-gray-800 hover:text-white transition duration-200"
-          >
-            ← Back to Portfolio
-          </a>
-        </div>
+     <div>
+       <a
+    href="/portfolio"
+    className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-blue-500 via-violet-500 to-fuchsia-500 rounded-full hover:opacity-90 transition-all duration-300">
+    ← Back to Portfolio
+       </a>
+    </div>
 
         {/* Title & Description */}
         <div className="text-center space-y-5">
@@ -69,7 +69,7 @@ function ProjectDetail() {
             <p className="text-gray-300 leading-relaxed">{project.overview}</p>
           </section>
 
-          {/* Problem (now in bullet points) */}
+          {/* Problem */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-3">
@@ -93,7 +93,7 @@ function ProjectDetail() {
             )}
           </section>
 
-          {/* Solution (now in bullet points) */}
+          {/* Solution */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             {project.screens[2] && (
               <img
