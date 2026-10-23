@@ -12,7 +12,7 @@ function ProjectDetail() {
   return (
     <div className="bg-[#0c0c0c] text-white px-6 py-16">
       <div className="max-w-6xl mx-auto space-y-20">
-        
+
         {/* Back Button */}
      <div>
        <a

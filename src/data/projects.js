@@ -14,8 +14,8 @@ const projects = [
     screens: ["/images/absa fam.jpeg",
   ],
     outcome: "Our Team placed 3rd place out of 10 teams that participated in the Team Hackathon. The team leanred how to work with real word contraints/limitations. We leanred how to work with a time limit- we had 5 hours to complete the challenge before presenting.",
-    pdfLink: "",         // <-- External redirect (Absa family presentation)
-    externalLink: "/projects/AbsaFamily.pdf",  //<-- I will add Github link once the project is live
+    pdfLink: "/projects/AbsaFamily.pdf",  // <-- External redirect (Absa family presentation)
+    externalLink: "",  //<-- I will add Github link once the project is live
     reflection:"The experience overall was great we learned a lot from industry professionals, presented in front of execs and shared our idea with our peers. This experience made me realise that I still have a lot to learn from a technical point of view, although this was more of a design challenge I further refelcted on the technical restraints that could possibly be a hurdle if we were to further polish or build the idea we had, for example for the kids interface and app functionality how would we make it user friendly for them so it’s not too complicated for them to use, how would we design and build a system that is sustainable and maintainable for them as they grow up with the app. I also learned the improtance of research in terms of how to improve something that already exists, why you’re chosing this idea or system, researching competitors, what they did well, how the implememented certain ideas and implementing that research in real time. My team and I decided to polish the idea, now that we have more time to work on it, it’s a great opportunity to brainstorm more ideas on how to improve the concept and further build on the concept and possibly prorotype the idea so we can see how the idea would work in real time, with real word constraints.",
   },
     {
